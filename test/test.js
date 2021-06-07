@@ -45,7 +45,7 @@ contract("dBank", ([deployer, user]) => {
     });
   });
 
-  xdescribe("testing deposit...", () => {
+  describe("testing deposit...", () => {
     let balance;
 
     describe("success", () => {
